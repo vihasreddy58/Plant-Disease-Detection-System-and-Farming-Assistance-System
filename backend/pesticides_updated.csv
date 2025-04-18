@@ -1,0 +1,401 @@
+crop,disease,pesticide,application,precaution
+Rice,Blast,Carbendazim,"1. Identify symptoms of Blast on Rice.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at early signs of infection, repeat after 10 days.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Rice,Brown Spot,Mancozeb,"1. Identify symptoms of Brown Spot on Rice.
+2. Prepare Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at tillering stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Rice,Sheath Blight,Validamycin,"1. Identify symptoms of Sheath Blight on Rice.
+2. Prepare Validamycin solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at 5-day interval once symptoms appear.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Validamycin.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Wheat,Leaf Rust,Propiconazole,"1. Identify symptoms of Leaf Rust on Wheat.
+2. Prepare Propiconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at booting stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Propiconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Wheat,Stripe Rust,Tebuconazole,"1. Identify symptoms of Stripe Rust on Wheat.
+2. Prepare Tebuconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray during flag leaf stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Tebuconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Wheat,Powdery Mildew,Sulphur Dust,"1. Identify symptoms of Powdery Mildew on Wheat.
+2. Prepare Sulphur Dust solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Dust when dew is present.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Sulphur Dust.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Red Rot,Carbendazim,"1. Identify symptoms of Red Rot on Sugarcane.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply in furrows and repeat every 15 days.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Smut,Tilt,"1. Identify symptoms of Smut on Sugarcane.
+2. Prepare Tilt solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Dip setts before planting.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Tilt.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Wilt,Bavistin,"1. Identify symptoms of Wilt on Sugarcane.
+2. Prepare Bavistin solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Soil drenching at infected zones.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Bavistin.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Maize,Downy Mildew,Metalaxyl,"1. Identify symptoms of Downy Mildew on Maize.
+2. Prepare Metalaxyl solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply 2 sprays at 10-day interval.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Maize,Turcicum Leaf Blight,Mancozeb,"1. Identify symptoms of Turcicum Leaf Blight on Maize.
+2. Prepare Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at disease initiation.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Cotton,Bacterial Blight,Copper Oxychloride,"1. Identify symptoms of Bacterial Blight on Cotton.
+2. Prepare Copper Oxychloride solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at boll development stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Copper Oxychloride.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Cotton,Leaf Curl,Imidacloprid,"1. Identify symptoms of Leaf Curl on Cotton.
+2. Prepare Imidacloprid solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray early in morning.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Imidacloprid.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Cotton,Alternaria Leaf Spot,Zineb,"1. Identify symptoms of Alternaria Leaf Spot on Cotton.
+2. Prepare Zineb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at 15-day interval.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Zineb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Tomato,Early Blight,Chlorothalonil,"1. Identify symptoms of Early Blight on Tomato.
+2. Prepare Chlorothalonil solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray every 7–10 days.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Chlorothalonil.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Tomato,Late Blight,Metalaxyl + Mancozeb,"1. Identify symptoms of Late Blight on Tomato.
+2. Prepare Metalaxyl + Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray during high humidity.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl + Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Tomato,Leaf Curl Virus,Thiamethoxam,"1. Identify symptoms of Leaf Curl Virus on Tomato.
+2. Prepare Thiamethoxam solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray as soon as symptoms appear.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Thiamethoxam.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Potato,Late Blight,Mancozeb,"1. Identify symptoms of Late Blight on Potato.
+2. Prepare Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at first sign of infection.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Potato,Early Blight,Chlorothalonil,"1. Identify symptoms of Early Blight on Potato.
+2. Prepare Chlorothalonil solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Repeat sprays every 10 days.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Chlorothalonil.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Brinjal,Shoot and Fruit Borer,Spinosad,"1. Identify symptoms of Shoot and Fruit Borer on Brinjal.
+2. Prepare Spinosad solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at flowering stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Spinosad.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Brinjal,Little Leaf,Imidacloprid,"1. Identify symptoms of Little Leaf on Brinjal.
+2. Prepare Imidacloprid solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray on foliage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Imidacloprid.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Banana,Panama Wilt,Carbendazim,"1. Identify symptoms of Panama Wilt on Banana.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Soil drenching at planting.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Banana,Sigatoka Leaf Spot,Propiconazole,"1. Identify symptoms of Sigatoka Leaf Spot on Banana.
+2. Prepare Propiconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at 21-day intervals.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Propiconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Mango,Powdery Mildew,Sulphur,"1. Identify symptoms of Powdery Mildew on Mango.
+2. Prepare Sulphur solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray pre-flowering and post-flowering.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Sulphur.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Mango,Anthracnose,Copper Hydroxide,"1. Identify symptoms of Anthracnose on Mango.
+2. Prepare Copper Hydroxide solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at fruit set.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Copper Hydroxide.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Onion,Purple Blotch,Mancozeb,"1. Identify symptoms of Purple Blotch on Onion.
+2. Prepare Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply during bulb formation.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Onion,Downy Mildew,Metalaxyl,"1. Identify symptoms of Downy Mildew on Onion.
+2. Prepare Metalaxyl solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray every 10 days.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Chilli,Anthracnose,Carbendazim,"1. Identify symptoms of Anthracnose on Chilli.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply after fruit set.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Chilli,Powdery Mildew,Sulphur,"1. Identify symptoms of Powdery Mildew on Chilli.
+2. Prepare Sulphur solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at 15-day intervals.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Sulphur.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Groundnut,Tikka Leaf Spot,Chlorothalonil,"1. Identify symptoms of Tikka Leaf Spot on Groundnut.
+2. Prepare Chlorothalonil solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray during flowering stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Chlorothalonil.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Groundnut,Rust,Hexaconazole,"1. Identify symptoms of Rust on Groundnut.
+2. Prepare Hexaconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at 10-day intervals.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Hexaconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Soybean,Cercospora Leaf Spot,Mancozeb,"1. Identify symptoms of Cercospora Leaf Spot on Soybean.
+2. Prepare Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray before flowering.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Soybean,Rust,Tebuconazole,"1. Identify symptoms of Rust on Soybean.
+2. Prepare Tebuconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply when symptoms appear.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Tebuconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Grapes,Downy Mildew,Metalaxyl,"1. Identify symptoms of Downy Mildew on Grapes.
+2. Prepare Metalaxyl solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at pre-bloom stage.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Grapes,Powdery Mildew,Sulphur,"1. Identify symptoms of Powdery Mildew on Grapes.
+2. Prepare Sulphur solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray during fruit development.
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Sulphur.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Red Rot,Tricyclazole,"1. Identify symptoms of Red Rot on Sugarcane.
+2. Prepare Tricyclazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at early symptom appearance, repeat after 14 days..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Tricyclazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Smut,Hexaconazole,"1. Identify symptoms of Smut on Sugarcane.
+2. Prepare Hexaconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply as soil drench near root zone every 10-15 days..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Hexaconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Sugarcane,Wilt,Carbendazim,"1. Identify symptoms of Wilt on Sugarcane.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply twice during vegetative growth stage..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Potato,Early Blight,Chlorothalonil,"1. Identify symptoms of Early Blight on Potato.
+2. Prepare Chlorothalonil solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray every 7–10 days from early growth..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Chlorothalonil.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Potato,Late Blight,Metalaxyl,"1. Identify symptoms of Late Blight on Potato.
+2. Prepare Metalaxyl solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at first sign of disease and repeat weekly..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Tomato,Leaf Curl Virus,Imidacloprid,"1. Identify symptoms of Leaf Curl Virus on Tomato.
+2. Prepare Imidacloprid solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply as foliar spray every 15 days..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Imidacloprid.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Tomato,Bacterial Wilt,Streptomycin + Tetracycline,"1. Identify symptoms of Bacterial Wilt on Tomato.
+2. Prepare Streptomycin + Tetracycline solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Soil drench at transplanting and repeat after 30 days..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Streptomycin + Tetracycline.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Maize,Turcicum Leaf Blight,Zineb,"1. Identify symptoms of Turcicum Leaf Blight on Maize.
+2. Prepare Zineb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray twice at 15-day intervals..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Zineb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Maize,Downy Mildew,Metalaxyl + Mancozeb,"1. Identify symptoms of Downy Mildew on Maize.
+2. Prepare Metalaxyl + Mancozeb solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at 10-day intervals as preventive measure..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Metalaxyl + Mancozeb.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Rice,False Smut,Propiconazole,"1. Identify symptoms of False Smut on Rice.
+2. Prepare Propiconazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at booting stage; repeat if needed..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Propiconazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Rice,Neck Blast,Tricyclazole,"1. Identify symptoms of Neck Blast on Rice.
+2. Prepare Tricyclazole solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at maximum tillering and panicle initiation stages..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Tricyclazole.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Wheat,Powdery Mildew,Sulphur,"1. Identify symptoms of Powdery Mildew on Wheat.
+2. Prepare Sulphur solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray sulfur fungicide at 10-day intervals..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Sulphur.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Wheat,Karnal Bunt,Carbendazim,"1. Identify symptoms of Karnal Bunt on Wheat.
+2. Prepare Carbendazim solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Treat seeds before sowing and spray during heading stage..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Carbendazim.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Onion,Purple Blotch,Iprodione,"1. Identify symptoms of Purple Blotch on Onion.
+2. Prepare Iprodione solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Apply at 15-day intervals during bulb formation..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Iprodione.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."
+Chilli,Anthracnose,Azoxystrobin,"1. Identify symptoms of Anthracnose on Chilli.
+2. Prepare Azoxystrobin solution as per label recommendations.
+3. Use a knapsack or motorized sprayer with fine nozzle.
+4. Spray at flowering and fruiting stages..
+5. Ensure uniform coverage on both sides of leaves.
+6. Repeat application as needed based on severity.","1. Wear protective clothing, gloves, and mask while handling Azoxystrobin.
+2. Avoid spraying on windy days to reduce drift.
+3. Do not allow children or pets near treated areas until dry."

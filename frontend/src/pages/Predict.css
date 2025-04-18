@@ -1,0 +1,250 @@
+/* General Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f0f8f5;
+    color: #333;
+}
+
+.container {
+    width: 95%; /* Adjust container width for responsiveness */
+    
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px 0; /* Keep some padding inside the container */
+}
+
+/* Header Styling */
+.header {
+    background: #388E3C;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Uploader Section */
+.uploader-section {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.uploader-section h2 {
+    margin-bottom: 20px;
+}
+
+.uploader-section input[type="file"] {
+    margin: 15px auto;
+    padding: 12px;
+    border: 2px dashed #4CAF50;
+    background: #f9f9f9;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.uploader-section button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.uploader-section button:hover {
+    background: #388E3C;
+}
+
+/* Image Preview Styling */
+.uploader-section img {
+    max-width: 300px; /* Fixed maximum width for preview */
+    max-height: 300px; /* Fixed maximum height for preview */
+    width: auto; /* Allow image to scale proportionally */
+    height: auto;
+    object-fit: contain; /* Prevents image distortion */
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Prediction Result Section */
+.result-section {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .result-section h2 {
+    color: #2e7d32;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .result-section p {
+    margin: 8px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .result-section strong {
+    color: #444;
+    font-weight: 600;
+  }
+  
+  .result-section .disease-name {
+    color: #c62828;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .result-section h3 {
+    color: #1565c0;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .result-section ol {
+    padding-left: 20px;
+    margin-top: 0;
+  }
+  
+  .result-section li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+.disease-name{
+    font-weight: bolder;
+}  
+/* Disease Information Section */
+.disease-section {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.disease-content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+    gap: 20px;
+}
+
+.disease-content li {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(50% - 20px); /* Adjust width for two columns */
+    max-width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disease-content img {
+    width: 250px; /* Fixed width for images */
+    height: 250px; /* Fixed height for images */
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* Plant Tabs */
+.plant-tabs {
+    display: flex;
+    justify-content: space-around;
+    background: #f0f0f0;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    flex: 1;
+    padding: 15px;
+    background: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tab-button:hover, .tab-button.active {
+    background: #4CAF50;
+    color: white;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.how-it-works {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Allow steps to wrap */
+}
+
+.step {
+    flex: 1 1 300px; /* Adjust width for responsive steps */
+    background: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background: #dff0d8;
+    color: #4CAF50;
+    font-size: 28px;
+    line-height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+/* Footer */
+.footer {
+    background: #1E5631;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+}

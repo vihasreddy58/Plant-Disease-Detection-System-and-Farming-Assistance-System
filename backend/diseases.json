@@ -1,0 +1,168 @@
+{
+    "Corn - Common Rust": {
+      "affected_part": "Leaves",
+      "steps": [
+        "Remove severely infected leaves",
+        "Use rust-resistant corn varieties",
+        "Apply appropriate fungicide"
+      ],
+      "cure": "Fungicide application and crop rotation",
+      "prevention": "Avoid overhead irrigation and overcrowding"
+    },
+    "Corn - Gray Leaf Spot": {
+      "affected_part": "Leaves",
+      "steps": [
+        "Use disease-resistant hybrids",
+        "Apply fungicides at early stages",
+        "Improve air circulation through proper spacing"
+      ],
+      "cure": "Timely fungicide use and field sanitation",
+      "prevention": "Crop rotation and residue management"
+    },
+    "Corn - Healthy": {
+      "affected_part": "None",
+      "steps": [
+        "Continue proper irrigation and fertilization",
+        "Monitor regularly for early signs of disease"
+      ],
+      "cure": "Not applicable",
+      "prevention": "Maintain good crop management practices"
+    },
+    "Corn - Northern Leaf Blight": {
+      "affected_part": "Leaves",
+      "steps": [
+        "Use resistant corn varieties",
+        "Apply fungicides at V6-V8 stages",
+        "Manage crop residues"
+      ],
+      "cure": "Fungicide treatment during early symptoms",
+      "prevention": "Rotate crops and use certified seeds"
+    },
+    "Potato - Early Blight": {
+      "affected_part": "Leaves and stems",
+      "steps": [
+        "Remove infected leaves",
+        "Spray with mancozeb or chlorothalonil",
+        "Ensure proper field drainage"
+      ],
+      "cure": "Timely fungicide application",
+      "prevention": "Crop rotation and avoid overhead watering"
+    },
+    "Potato - Healthy": {
+      "affected_part": "None",
+      "steps": [
+        "Monitor crop for early signs",
+        "Maintain regular irrigation and fertilization"
+      ],
+      "cure": "Not applicable",
+      "prevention": "Use disease-free tubers and healthy practices"
+    },
+    "Potato - Late Blight": {
+      "affected_part": "Leaves, stems, tubers",
+      "steps": [
+        "Destroy infected plants",
+        "Apply systemic fungicides",
+        "Improve soil drainage"
+      ],
+      "cure": "Use metalaxyl-based fungicides",
+      "prevention": "Avoid waterlogging and ensure good spacing"
+    },
+    "Rice - Brown Spot": {
+      "affected_part": "Leaves and grains",
+      "steps": [
+        "Apply potash and proper fertilizers",
+        "Spray recommended fungicides",
+        "Remove infected debris"
+      ],
+      "cure": "Fungicides and nutrient balance",
+      "prevention": "Use resistant varieties and ensure nitrogen balance"
+    },
+    "Rice - Healthy": {
+      "affected_part": "None",
+      "steps": [
+        "Maintain proper water levels",
+        "Fertilize adequately"
+      ],
+      "cure": "Not applicable",
+      "prevention": "Monitor and apply integrated pest management (IPM)"
+    },
+    "Rice - Leaf Blast": {
+      "affected_part": "Leaf blade",
+      "steps": [
+        "Avoid excess nitrogen",
+        "Use fungicides during early stages",
+        "Improve field drainage"
+      ],
+      "cure": "Tricyclazole or equivalent fungicides",
+      "prevention": "Use certified seed and resistant varieties"
+    },
+    "Rice - Neck Blast": {
+      "affected_part": "Neck of panicle",
+      "steps": [
+        "Apply fungicide during booting stage",
+        "Avoid high nitrogen fertilization",
+        "Water management"
+      ],
+      "cure": "Apply systemic fungicides like tricyclazole",
+      "prevention": "Use tolerant varieties and balanced nutrition"
+    },
+    "Sugarcane - Bacterial Blight": {
+      "affected_part": "Leaves and stalks",
+      "steps": [
+        "Remove infected canes",
+        "Apply recommended bactericides",
+        "Use healthy setts for planting"
+      ],
+      "cure": "Field sanitation and bactericide application",
+      "prevention": "Avoid mechanical injury and use disease-free seed"
+    },
+    "Sugarcane - Healthy": {
+      "affected_part": "None",
+      "steps": [
+        "Maintain regular irrigation and fertilization",
+        "Inspect for pests and diseases regularly"
+      ],
+      "cure": "Not applicable",
+      "prevention": "Implement preventive agronomic practices"
+    },
+    "Sugarcane - Red Rot": {
+      "affected_part": "Stalks",
+      "steps": [
+        "Destroy infected clumps",
+        "Use resistant varieties",
+        "Apply fungicide if detected early"
+      ],
+      "cure": "Sanitation and resistant planting material",
+      "prevention": "Avoid waterlogging and use clean planting tools"
+    },
+    "Wheat - Brown Rust": {
+      "affected_part": "Leaves",
+      "steps": [
+        "Spray propiconazole or equivalent fungicide",
+        "Use resistant varieties",
+        "Monitor fields regularly"
+      ],
+      "cure": "Use fungicides at early stages",
+      "prevention": "Avoid late sowing and over-irrigation"
+    },
+    "Wheat - Healthy": {
+      "affected_part": "None",
+      "steps": [
+        "Use certified seeds",
+        "Apply timely irrigation and nutrients"
+      ],
+      "cure": "Not applicable",
+      "prevention": "Use crop rotation and field monitoring"
+    },
+    "Wheat - Yellow Rust": {
+      "affected_part": "Leaves",
+      "steps": [
+        "Spray with tebuconazole",
+        "Avoid early sowing in rust-prone zones",
+        "Monitor weather-based alerts"
+      ],
+      "cure": "Fungicide treatment and resistant varieties",
+      "prevention": "Use seed treatment and regular scouting"
+    }
+  }
+  

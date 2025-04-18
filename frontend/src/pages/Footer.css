@@ -1,0 +1,124 @@
+/* Footer Container */
+.footer {
+    background-color: #0b0b3b;
+    color: white;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: stretch; */   /* Option 1: Stretch to tallest */
+    align-items: flex-start;  /* Option 2: Align to top */
+    /* align-items: center; */    /* Option 3: Align to center */
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 2rem;
+  }
+  
+  /* Footer Sections */
+  .footer-section {
+    flex-basis: 25%; /* Set a preferred width (adjust as needed) */
+    min-width: 200px; /* Optional: Adjust minimum width */
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 0.5rem;
+  }
+  
+  /* About Section */
+  .footer-section.about {
+    text-align: left;
+    max-width: 350px;
+    line-height: 1.6;
+    background-color: #0b0b3b; /* Added background color */
+    padding: 1rem; /* Optional padding */
+  }
+  
+  /* Contact Info */
+  .contact p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Subscribe Form */
+  .subscribe form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .subscribe button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .subscribe button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Subscription Message */
+  .message {
+    margin-top: 10px;
+    color: #ffcc00;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #09092e;
+    font-size: 0.85rem;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-section.about {
+      text-align: center;
+      max-width: 100%;
+    }
+  }

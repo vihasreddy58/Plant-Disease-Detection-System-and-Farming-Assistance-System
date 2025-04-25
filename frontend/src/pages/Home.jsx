@@ -180,19 +180,18 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Scrolling Information Section */}
       <section className="scrolling-info">
-        <div className="scrolling-container">
-          <div className="scrolling-text">
-          {announcements.length === 0 ? (
-  <span>Loading announcements...</span>
-) : (
-  announcements.map((info, index) => <span key={index}>{info}</span>)
-)}
+  <div className="scrolling-container">
+    <div className="scrolling-text">
+      {announcements.length === 0 ? (
+        <span>Loading announcements...</span>
+      ) : (
+        announcements.map((info, index) => <span key={index}>{info}</span>)
+      )}
+    </div>
+  </div>
+</section>
 
-          </div>
-        </div>
-      </section>
 
       
 

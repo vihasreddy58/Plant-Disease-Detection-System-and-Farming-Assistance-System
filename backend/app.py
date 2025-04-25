@@ -202,19 +202,21 @@ def chat():
         return jsonify({'text': response_text})
     return jsonify({'text': 'Invalid request'})
 
-API_KEY = "579b464db66ec23bdd000001df526c4244f44d9f7071b809bab8e846"
+#API_KEY = "579b464db66ec23bdd000001df526c4244f44d9f7071b809bab8e846"
+API_KEY="579b464db66ec23bdd000001df526c4244f44d9f7071b809bab8e846"
 AGMARKNET_URL = "https://api.data.gov.in/resource/9ef84268-d588-465a-a308-a864a43d0070"
+#url="https://api.data.gov.in/resource/35985678-0d79-46b4-9ed6-6f13308a1d24?api-key=579b464db66ec23bdd000001df526c4244f44d9f7071b809bab8e846&format=json&filters%5BState.keyword%5D=Telangana&filters%5BArrival_Date%5D=17%2F04%2F2025"
 
 @app.route('/get-prices')
 def get_prices():
     state = request.args.get("state")
     district = request.args.get("district")  # optional
     #commodities = request.args.getlist("commodities")  # multiple values
-
+    print(district)
     params = {
         "api-key": API_KEY,
         "format": "json",
-        "limit": 40,  # increase to get more records
+        "limit": 100,  # increase to get more records
         "filters[state]": state,
         "filters[district]":district
     }
@@ -231,9 +233,10 @@ def get_prices():
     #         params[f"filters[commodity][{i}]"] = commodity
 
     response = requests.get(AGMARKNET_URL, params=params)
-
+    #response=requests.get(url)
     try:
         data = response.json()
+        print(data)
         return jsonify(data.get("records", []))
     except Exception as e:
         return jsonify({"error": "Failed to fetch data", "details": str(e)}), 500

@@ -77,7 +77,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link" to="/experts" onClick={closeMarketplace}>Consult Expert</Link>
         </li>
-
+        <li className="nav-item">
+  <div id="google_translate_element" className="nav-link translate-dropdown"></div>
+</li>
         <li className="nav-item">
         <Link to="/" className="nav-link logout-btn" onClick={handleLogout}>
     Logout

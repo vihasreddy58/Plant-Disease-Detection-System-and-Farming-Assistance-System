@@ -312,104 +312,57 @@ body, html {
   font-style: italic;
   margin-bottom: 15px;
 }
-/* ... (Existing CSS) ... */
 /* Scrolling Information Section */
 .scrolling-info {
-  background-color: #f0f8f5;
+  background: linear-gradient(to right, #f0f8f5, #e8f5f0);
   padding: 15px 20px;
+  border-top: 1px solid #d1e7dd;
+  border-bottom: 1px solid #d1e7dd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   overflow: hidden;
-  position: relative; /* Needed for absolute positioning of icons */
+  position: relative;
 }
 
+/* Container that holds the scrolling text */
 .scrolling-container {
+  display: flex;
+  align-items: center;
   white-space: nowrap;
-  animation: scrollText 20s linear infinite;
-  display: inline-block; /* Allows us to apply width if needed */
-}
-
-.scrolling-text span {
-  display: inline-block;
-  padding-right: 30px;
-  font-size: 1.1rem;
-  position: relative; /* For icon positioning relative to text */
-}
-
-/* Optional: Add a separator between spans */
-.scrolling-text span:not(:last-child)::after {
-  content: " | "; /* Or any other separator */
-  padding-left: 15px;
-}
-
-/* Example Icons (using unicode or font icons) */
-.scrolling-text span::before {
-  font-family: "Font Awesome 5 Free"; /* Replace with your font family */
-  font-weight: 900; /* For solid icons */
-  margin-right: 10px;
-  font-size: 1.2rem; /* Adjust icon size */
-  color: #007bff; /* Example icon color */
-}
-
-/* Alternate Example using Unicode (e.g., a simple star) */
-/* .scrolling-text span::before {
-  content: "⭐";
-  margin-right: 10px;
-  font-size: 1.2rem;
-  color: #ffc107;
-} */
-
-@keyframes scrollText {
-  0% { transform: translateX(100%); }
-  100% { transform: translateX(-100%); }
-}
-
-/* Optional: Add a subtle gradient effect to the background */
-.scrolling-info {
-    background: linear-gradient(to right, #f0f8f5, #e8f5f0);
-}
-
-/* Optional: Add a subtle shadow to the scrolling area */
-.scrolling-info {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Optional: Add a repeating icon at the beginning and end of the scrolling text */
-.scrolling-container::before,
-.scrolling-container::after {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-size: 1.2rem;
-  color: #007bff;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.scrolling-container::before {
-  left: 10px;
-}
-
-.scrolling-container::after {
-  right: 10px;
-}
-.scrolling-container {
   overflow: hidden;
-  white-space: nowrap;
+  position: relative;
   width: 100%;
-  background: #e0ffe0;
-  padding: 10px;
 }
 
+/* Text that moves horizontally */
 .scrolling-text {
   display: inline-block;
-  animation: scroll 20s linear infinite;
-  font-weight: bold;
+  animation: scroll 40s linear infinite;
+  font-weight: 500;
   color: #2e7d32;
+  font-size: 1.1rem;
 }
 
+/* Individual announcements */
 .scrolling-text span {
-  margin-right: 50px;
+  display: inline-block;
+  margin-right: 40px;
+  position: relative;
 }
 
+/* Separator between announcements */
+.scrolling-text span:not(:last-child)::after {
+  content: " | ";
+  padding-left: 20px;
+  color: #999;
+}
+
+/* Optional icon before each announcement */
+.scrolling-text span::before {
+  content: "📢";
+  margin-right: 8px;
+}
+
+/* Scroll animation keyframes */
 @keyframes scroll {
   0% {
     transform: translateX(100%);
@@ -418,3 +371,4 @@ body, html {
     transform: translateX(-100%);
   }
 }
+

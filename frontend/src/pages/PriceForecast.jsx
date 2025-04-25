@@ -12,9 +12,8 @@ const PriceForecast = () => {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       async (position) => {
-        const lat = position.coords.latitude;
-        const lon = position.coords.longitude;
-
+        const lat = "17.389017"
+        const lon = "78.349541"
         // Reverse geocoding
         const locRes = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lon}&format=json&accept-language=en`);
         const locData = await locRes.json();
@@ -23,17 +22,18 @@ const PriceForecast = () => {
         const district = locData.address.state_district
 
         setLocation({ state, district });
-
+console.log(locData)
         const priceRes = await fetch(
           `http://127.0.0.1:5000/get-prices?state=${state}&district=${district}`
         );
         
                 const priceData = await priceRes.json();
+                console.log(priceData)
         setPrices(priceData);
 
         const allCommodities = [...new Set(priceData.map(item => item.commodity))];
         setCommodityList(allCommodities);
-        setFilteredPrices(priceData.slice(0, 10)); // default top 10
+        setFilteredPrices(priceData); // default top 10
         setLoading(false);
       },
       (err) => {

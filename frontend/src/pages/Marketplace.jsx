@@ -47,10 +47,7 @@ const Marketplace = () => {
       <div className="grid">
         {products.map((product) => (
           <div className="card" key={product._id}>
-            <img
-              src={product.image || "/placeholder.jpg"}
-              alt={product.name}
-            />
+            
             <div className="card-content">
               <h3>{product.name}</h3>
               <p>{product.description}</p>

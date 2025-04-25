@@ -23,7 +23,7 @@ A full-stack AI-powered web application built to support farmers with plant dise
 - **Backend**: Flask (Python)
 - **Database**: MongoDB
 - **AI/ML**: TensorFlow, Keras, MobileNetV2
-- **Other**: NLTK (for chatbot), HTML/CSS, Bootstrap
+- **Other**: GeminiApi (for chatbot), HTML/CSS, Bootstrap , OpenMeteo API(weather) , Agmarknet API (PriceDetails)
 
 ---
 
@@ -31,5 +31,4 @@ A full-stack AI-powered web application built to support farmers with plant dise
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/plant-disease-assistant.git
-   cd plant-disease-assistant
+   git clone https://github.com/vihasreddy58/Plant-Disease-Detection-System-and-Farming-Assistance-System

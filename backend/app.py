@@ -10,6 +10,8 @@ from pymongo import MongoClient
 from dotenv import load_dotenv
 import google.generativeai as genai
 import requests
+from flask import send_from_directory
+
 from flask_pymongo import PyMongo
 from datetime import datetime
 from bson import ObjectId
@@ -23,7 +25,9 @@ hugging_face_token = os.getenv('HUGGING_FACE_TOKEN')
 gemini_api_key = os.getenv('GEMINI_API_KEY')
 genai.configure(api_key=gemini_api_key)
 
-app = Flask(__name__)
+
+app = Flask(__name__, static_folder='../frontend/dist', static_url_path='')
+
 CORS(app)
 bcrypt = Bcrypt(app)
 MONGO_URI = "mongodb://localhost:27017/agriculture"
@@ -497,6 +501,10 @@ def close_request(request_id):
         {"$set": {"status": "Closed"}}
     )
     return jsonify({"success": True, "message": "Request closed."})
-
+def serve_react(path):
+    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, "index.html")
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
